@@ -7,10 +7,10 @@ The Unity Game Save System is a comprehensive solution designed for Unity develo
 - Newtonsoft.Json for JSON serialization and deserialization
 
 ## How to Install and Run the Project
-1. Ensure you have Unity (version to be specified) installed on your machine.
+1. Ensure you have Newtonsoft.Json installed on your machine.
 2. Download or clone the project repository to your local machine.
 3. Open the project in Unity by selecting `Open Project` and navigating to the project directory.
-4. (Optional) If provided, import the `.unitypackage` file via `Assets` > `Import Package` > `Custom Package...` in Unity.
+4. (Optional) Download [`unitypackage`](https://github.com/wazash/save-system/raw/main/save-system.unitypackage) and import the file via `Assets` > `Import Package` > `Custom Package...` in Unity.
 
 ## How To Use
 1. **Implement ISaveable Interface:** Ensure that all objects you wish to save implement the `ISaveable` interface. This requires methods for saving and loading data, as well as a unique save ID for each object.
